@@ -1,8 +1,11 @@
-﻿using CQRSProject.API.Commands;
+﻿using CQRSProject.API.Attribute;
+using CQRSProject.API.Commands;
+using CQRSProject.API.Identity;
 using CQRSProject.API.Models;
 using CQRSProject.API.Queries;
 using CQRSProject.API.Repositories;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CQRSProject.API.Controllers;
@@ -42,7 +45,11 @@ public class CustomerController : ControllerBase
         return Ok(result);
     }
 
+    //when not matches returns ,403 Forbidden if auhorized
     [HttpPut]
+    [Authorize]
+    [RequiresClaim(IdentityData.AdminUserClaimName, "true")]
+
     public async Task<IActionResult> UpdateCustomer([FromBody] Customer customer)
     {
         var command = new UpdateCustomerRequest(customer.Id, customer.FirstName, customer.LastName, customer.Email,

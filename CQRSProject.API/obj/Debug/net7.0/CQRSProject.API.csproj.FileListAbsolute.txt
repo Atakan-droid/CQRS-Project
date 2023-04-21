@@ -68,3 +68,10 @@ C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\obj\Debug\ne
 C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\obj\Debug\net7.0\ref\CQRSProject.API.dll
 C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\FluentValidation.dll
 C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ataka\RiderProjects\CQRSPatternWithMediatR\CQRSProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
