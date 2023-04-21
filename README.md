@@ -1,4 +1,4 @@
-# CQRSwithMediatR
+# CQRS Project
 
 This project is developed using .NET Web API technologies and is based on the CQRS pattern. The purpose of the project is to develop a RESTful API using vertical slice techniques to achieve high scalability and flexibility.
 
