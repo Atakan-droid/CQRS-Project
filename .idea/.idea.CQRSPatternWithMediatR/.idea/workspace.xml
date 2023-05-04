@@ -6,33 +6,7 @@
     <projectFile profileName="https">ExampleMediatR/ExampleMediatR.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6e7437-d70c-4f2a-97b6-835bcbb663e8" name="Changes" comment="Fluent Validation added with MediatR pipeline behavior, domain level validation applied, project name change to CQRS project">
-      <change afterPath="$PROJECT_DIR$/CQRSProject.API/Attribute/RequiresClaimAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRSProject.API/Identity/IdentityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRSProject.API/Swagger/ConfigureSwaggerOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSPatternWithMediatR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSPatternWithMediatR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/CQRSProject.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/CQRSProject.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/Controllers/CustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/Controllers/CustomerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/CQRSProject.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/bin/Debug/net7.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/CQRSProject.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/CQRSProject.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/CQRSProject.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/ref/CQRSProject.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/ref/CQRSProject.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/refint/CQRSProject.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/Debug/net7.0/refint/CQRSProject.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSProject.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSProject.API/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="ec6e7437-d70c-4f2a-97b6-835bcbb663e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681931385152</updated>
       <workItem from="1681931385153" duration="5610000" />
-      <workItem from="1682086858332" duration="8346000" />
+      <workItem from="1682086858332" duration="8452000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681936405733</created>
@@ -154,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682092982557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JWT token configuration added, swagger configuration added for jwt bearer token">
+      <created>1682095436432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682095436432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +158,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Fluent Validation added with MediatR pipeline behavior, domain level validation applied, project name change to CQRS project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fluent Validation added with MediatR pipeline behavior, domain level validation applied, project name change to CQRS project" />
+    <MESSAGE value="JWT token configuration added, swagger configuration added for jwt bearer token" />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT token configuration added, swagger configuration added for jwt bearer token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
