@@ -42,5 +42,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure subscription 1(28d54dee-2691-42c4-ab2a-d0d689368e55)'
     appType: 'webApp'
-    WebAppName: 'demodeploy'
+    WebAppName: 'demodeploy1'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
