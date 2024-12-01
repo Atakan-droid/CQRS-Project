@@ -32,3 +32,15 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: DotNetCoreCLI@2
+  inputs:
+    azureSubscription: 'Azure subscription 1(28d54dee-2691-42c4-ab2a-d0d689368e55)'
+    command: 'publish'
+    publishWebProjects: true
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1(28d54dee-2691-42c4-ab2a-d0d689368e55)'
+    appType: 'webApp'
+    WebAppName: 'demodeploy'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
